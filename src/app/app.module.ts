@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { FormNativeValidationComponent } from './form-native-validation/form-native-validation.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TemplateDrivenFormComponent,
-    FormNativeValidationComponent
+    FormNativeValidationComponent,
+    FormValidationComponent
   ],
   imports: [
     BrowserModule,
