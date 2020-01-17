@@ -56,7 +56,10 @@
                   Please enter the age
                 </mat-error>
                 <mat-error *ngIf="clientForm.controls.age.hasError('min')" >
-                  Age must a more characters 
+                  Age must more characters 
+                </mat-error>
+                <mat-error *ngIf="clientForm.controls.age.hasError('max')" >
+                  Age must minus characters 
                 </mat-error>
               </mat-form-field>
             </div>          
